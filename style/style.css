@@ -1,0 +1,36 @@
+.container{
+  /* border:1px solid red; */
+  height: 350px;
+  overflow: hidden;
+}
+.box{
+    margin-right: 2%;
+    width: 23.5%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.box1{
+  background-color: aqua;
+}
+.box2{
+ background-color: blue;
+}
+.box3{
+background-color: blueviolet;
+}
+.box4{
+background-color: brown;
+}
+.box:last-child{
+  margin-right: 0;
+}
+
+.style{
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
